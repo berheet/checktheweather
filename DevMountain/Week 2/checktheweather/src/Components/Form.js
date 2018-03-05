@@ -14,7 +14,9 @@ class Form extends Component{
 
       this.state = {
         city: " ",
-        country: " "
+        country: " ",
+        temperature: " ",
+        humidity: " "
       };
   }
   render(){
