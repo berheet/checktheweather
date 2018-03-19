@@ -1,0 +1,37 @@
+body {
+  background-color: #29292b;
+}
+/* 
+header {
+  display: flex;
+  color: yellow;
+  margin-left: 100px
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 550px;
+}
+
+.headerz {
+  padding: 10px;
+  color: white;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    margin: 10px
+}
+
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+
+.headerz {
+    padding: 10px;
+}
