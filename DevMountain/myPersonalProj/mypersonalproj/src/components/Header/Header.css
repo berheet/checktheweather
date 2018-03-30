@@ -1,0 +1,40 @@
+.headerDiv {
+  background-color: #80ff80;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  height: 40px;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.Nav {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+
+.navDiv {
+  margin-left: 1vw;
+  margin-right: 2vw;
+  color: white;
+}
+
+.headerA {
+  color: white;
+}
+
+
+.header_div {
+  display: flex;
+}
+ 
+h1 {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/* .logodiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */ 

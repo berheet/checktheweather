@@ -1,0 +1,29 @@
+.carDiv {
+  /* margin-top: 10%; */
+  box-sizing: border-box;
+  height: 12vh;
+}
+
+.headerTwo {
+  top: 35vh;
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+}
+
+.loginDiv {
+  position: absolute;
+  top: 20vh;
+}
+
+.loginbutton {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.Time {
+  text-align: center;
+}
