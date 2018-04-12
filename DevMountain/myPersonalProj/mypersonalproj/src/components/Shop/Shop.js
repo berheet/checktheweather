@@ -5,6 +5,11 @@ export default class Shop extends Component {
     return (
       <div>
         <h1>Shop</h1>
+        <div className="breakfastDiv">
+          <div>
+            <strong>SAVORY OATMEAL WITH CHEDDAR AND FRIED EGG</strong>
+            </div>
+          </div>
       </div>
     );
   }

@@ -4,6 +4,7 @@ import "./ProfileSettings.css";
 import { ENOPROTOOPT } from "constants";
 import axios from "axios";
 import { connect } from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
 
 class ProfileSettings extends Component {
   constructor(props) {
@@ -39,7 +40,7 @@ class ProfileSettings extends Component {
         goal: this.state.goal,
         id: this.props.user.id
       })
-      .then(response => console.log(response));
+      .then(response => alert("Wow, so easy!"));
   };
 
   render() {
@@ -81,6 +82,7 @@ class ProfileSettings extends Component {
               value={this.state.gender}
               onChange={e => this.handleChange(e)}
             >
+              <option>Select Gender</option>
               <option>Male</option>
               <option>Female</option>
             </select>
@@ -170,7 +172,9 @@ class ProfileSettings extends Component {
           </div>
         </form>
         <br />
+        <div className="buttonDiv">
         <button onClick={() => this.onSubmit()}>Submit</button>
+        </div>
       </div>
     );
   }

@@ -7,6 +7,10 @@ import alertForum from "./components/Calendar/alertForum";
 import routes from "./routes";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Carousel from "./components/DemoCarousel/DemoCarousel";
+import NewHeader from "./components/Header/newHeader";
+import { connect } from "react-redux";
+import { getUser } from "./ducks/userReducer";
+import { withRouter } from "react-router";
 
 const style = {
   position: "relative",
@@ -19,15 +23,19 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.props);
     return (
       <div>
         <div className="App">
-          <Header />
+          <NewHeader />
         </div>
-        <div className="belowDBoard" style={{ overflowX: "hidden" }}>{routes}</div>
+        <div className="belowDBoard" style={{ overflowX: "hidden" }}>
+          {routes}
+        </div>
       </div>
     );
   }
 }
 
-export default App;
+const mapStateToProps = state => state.userReducer;
+export default withRouter(connect(mapStateToProps, { getUser })(App));

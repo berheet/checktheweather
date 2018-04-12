@@ -1,11 +1,5 @@
-.carDiv {
-  /* margin-top: 10%; */
-  box-sizing: border-box;
-  height: 12vh;
-}
-
 .headerTwo {
-  top: 35vh;
+  top: 63vh;
   position: absolute;
   display: flex;
   width: 100vw;
@@ -15,7 +9,7 @@
 
 .loginDiv {
   position: absolute;
-  top: 20vh;
+  top: 15vh;
 }
 
 .loginbutton {
@@ -26,4 +20,5 @@
 
 .Time {
   text-align: center;
+  color: #004e73
 }

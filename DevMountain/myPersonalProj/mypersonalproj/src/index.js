@@ -12,6 +12,7 @@ import FirstCarousel from "./components/DemoCarousel/DemoCarousel";
 import Home from "./components/Home/Home";
 import Time from "./components/TIme/Time";
 import store from "./store";
+import "tachyons";
 
 ReactDOM.render(
   <Provider store={store}>

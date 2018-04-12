@@ -1,14 +1,19 @@
 .headerDiv {
-  background-color: #80ff80;
+  background-color: #004e73;
   margin: 0 auto;
+  margin-bottom: 1vw;
   box-sizing: border-box;
   display: flex;
-  height: 40px;
+  height: 6vh;
   align-content: center;
   justify-content: flex-end;
 }
 
-.Nav {
+.headerBtns {
+  margin-top: 1vh;
+}
+
+/* .Nav {
   float: right;
   display: flex;
   list-style: none;
@@ -25,6 +30,7 @@
 }
 
 
+
 .header_div {
   display: flex;
 }
@@ -32,9 +38,4 @@
 h1 {
   margin: 0 auto;
   margin-top: 20px;
-}
-/* .logodiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */ 
+} */
