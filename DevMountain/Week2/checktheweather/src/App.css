@@ -1,0 +1,54 @@
+body {
+    /* width: 100%;
+    margin: 0 auto; */
+    /* background-image: url("https://www.cray.com/blog/wp-content/uploads/2015/09/Weather-Blog-Image.jpg"); */
+    /* background-color: white;
+    text-align: center;
+   */
+   background-image: url("https://lintvksnt.files.wordpress.com/2015/09/sunshine.jpg?w=650");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   align-content: stretch;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+    margin: 0 auto;
+
+}
+
+  .favoritesList{
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+
+    .idvDiv{
+        border: solid 1px black;
+        margin: 5px;   
+        padding: 20px; 
+        background-color: paleturquoise
+    }
+    .preview{
+        width: 17%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        margin-top: 20px;
+        border: solid 1px black;
+        padding: 20px; 
+    }

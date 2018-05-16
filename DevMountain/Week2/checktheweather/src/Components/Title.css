@@ -1,0 +1,22 @@
+.header {
+  background-image: url('https://lintvksnt.files.wordpress.com/2015/09/sunshine.jpg?w=650');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  font-weight: bold;
+}
+
+.dboardUl {
+  list-style: none;
+  margin-left: 39%;
+  display: flex;
+}
+
+.dboardli{
+	margin-right: 3%;
+}
